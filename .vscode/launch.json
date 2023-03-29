@@ -1,0 +1,21 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "hey",
+      "type": "node",
+      "request": "launch",
+      "program": "build/cli/index.js",
+      "args": ["hey", "What is the height of the Eiffel Tower?"],
+      "env": {
+        "OPENAI_API_KEY": "[YOUR OPENAI API KEY]"
+      },
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+    }
+  ]
+}
