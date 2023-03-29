@@ -8,7 +8,7 @@ Clone this repository.
 
 Run `npm i`.
 
-Enter your OpenAI API key into `.env-cmdrc.json`.
+Enter your OpenAI API key into `.env-cmdrc.json`. If you need one, you need to have/create an OpenAI account, login, and go to https://platform.openai.com/account/api-keys to generate one.
 
 ## Building
 
