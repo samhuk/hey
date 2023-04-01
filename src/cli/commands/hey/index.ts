@@ -22,7 +22,7 @@ const completeChat = async (text: string, config: Config): Promise<GFResult<stri
       {
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer${config.apiKey}`,
+          Authorization: `Bearer ${config.apiKey}`,
           "User-Agent": 'insomnia/2022.7.5',
         },
          
